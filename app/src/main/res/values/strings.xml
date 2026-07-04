@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">健康模拟器</string>
+    <string name="dashboard">仪表盘</string>
+    <string name="steps">步数</string>
+    <string name="water">水分</string>
+    <string name="sleep">睡眠</string>
+    <string name="meals">饮食</string>
+    <string name="today_steps">今日步数</string>
+    <string name="today_water">今日饮水</string>
+    <string name="today_sleep">今日睡眠</string>
+    <string name="today_calories">今日卡路里</string>
+    <string name="goal_steps">目标：10000步</string>
+    <string name="goal_water">目标：8杯</string>
+    <string name="goal_sleep">目标：8小时</string>
+    <string name="goal_calories">目标：2000大卡</string>
+    <string name="add">添加</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="history">历史记录</string>
+</resources>
