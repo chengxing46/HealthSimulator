@@ -125,7 +125,7 @@ fun DashboardScreen(viewModel: HealthViewModel) {
                                 modifier = Modifier.width(40.dp)
                             )
                             LinearProgressIndicator(
-                                progress = { progress },
+                                progress = progress,
                                 modifier = Modifier
                                     .weight(1f)
                                     .height(12.dp),

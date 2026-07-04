@@ -62,7 +62,7 @@ fun SleepScreen(viewModel: HealthViewModel) {
                 }
                 Spacer(modifier = Modifier.height(8.dp))
                 LinearProgressIndicator(
-                    progress = { (todayData.sleepHours / 8f).coerceAtMost(1f) },
+                    progress = (todayData.sleepHours / 8f).coerceAtMost(1f),
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(8.dp),

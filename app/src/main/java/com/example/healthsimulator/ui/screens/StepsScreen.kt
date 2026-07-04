@@ -58,7 +58,7 @@ fun StepsScreen(viewModel: HealthViewModel) {
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 LinearProgressIndicator(
-                    progress = { (todayData.steps.toFloat() / 10000f).coerceAtMost(1f) },
+                    progress = (todayData.steps.toFloat() / 10000f).coerceAtMost(1f),
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(8.dp),

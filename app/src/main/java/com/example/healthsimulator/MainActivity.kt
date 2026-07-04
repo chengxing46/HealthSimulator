@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             HealthSimulatorTheme {
-                HealthSimulatorApp()
+                MainAppScreen()
             }
         }
     }
@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HealthSimulatorApp() {
+fun MainAppScreen() {
     val navController = rememberNavController()
     val viewModel: HealthViewModel = viewModel()
 

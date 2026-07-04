@@ -70,7 +70,7 @@ fun MealsScreen(viewModel: HealthViewModel) {
                 }
                 Spacer(modifier = Modifier.height(8.dp))
                 LinearProgressIndicator(
-                    progress = { (todayData.calories.toFloat() / 2000f).coerceAtMost(1f) },
+                    progress = (todayData.calories.toFloat() / 2000f).coerceAtMost(1f),
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(8.dp),
